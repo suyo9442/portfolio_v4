@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIM SOO PORTFOLIO</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c16da9d508.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- header -->
+    <header id="header">
+        <div class="inner">
+            <h1 class="logo">
+                <a href="/"><span class="blind">나다</span></a>
+            </h1>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#introduce">Introduce</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portpolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button type="button" id="btnMenu" class="btn_menu">
+                <span class="blind">메뉴 열기</span>
+            </button>
+            <nav class="gnb_slide">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#introduce">Introduce</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portpolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button type="button" id="btnClose" class="btn_close">
+                    <span class="blind">메뉴 닫기</span>
+                </button>
+            </nav>
+        </div>
+        <!-- <div class="header_top">
+            <div class="inner">
+                <h1 class="logo">
+                    <a href="/"><span class="blind">나다</span></a>
+                </h1>
+                <button type="button" id="btnMenu" class="btn_menu">
+                    <span class="blind">메뉴 열기</span>
+                </button>
+                <nav class="gnb">
+                    <ul>
+                        <li><a href="#introduce">Introduce</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portpolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <button type="button" id="btnClose" class="btn_close">
+                        <span class="blind">메뉴 닫기</span>
+                    </button>
+                </nav>
+            </div>
+        </div> -->
+    </header>
+    <!-- home -->
+    <div class="home" id="home">
+        <div class="page1 page">
+            <div class="inner">
+                <img class="circle" src="./images/home_circle.png" alt="">
+                <img class="star rotate" src="./images/star.png" alt="">              
+                <div class="tit">
+                    <h2 class="home_tit">
+                        Welcome to <br> my portfolio
+                    </h2>
+                    <p class="intro">
+                        답답함이 풀릴 때까지 파고드는 집요함으로 진득하게 성장하는 김수입니다. 감각적인 디자인과 실용적인 인터페이스를 위해 항상 고민합니다. 책임감을 잃지 않는 자세로 끈끈하게, 길게 뻗어 나가는 담장 위 넝쿨같은 사람이 되고 싶습니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="page2 page">
+            <span class="element1 element"></span>
+            <span class="element2 element"></span>
+            <div class="inner">
+                <div class="profile_box">
+                    <article class="box1">
+                        <div class="myimg">
+                            <img src="./images/myprofile.jpg" alt="myprofile">
+                        </div>
+                        <div class="sns">
+                            <h3>Explore me #sns</h3>
+                            <ul>
+                                <li>
+                                    <a href="https://www.instagram.com/_soo__life_/" target="_blank"><img src="./images/instagram.svg" alt="instagram"></a>
+                                    <span>Instagram</span>
+                                </li>
+                                <li>
+                                    <a href="https://www.notion.so/2996388261e9448f93f71772465f122e" target="_blank"><img src="./images/notion.svg" alt="notion"></a>
+                                    <span>Notion</span>
+                                </li>
+                                <li>
+                                    <a href="https://fancy-note.tistory.com/" target="_blank"><img src="./images/blog.svg" alt="blog"></a>
+                                    <span>Blog</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="box2">
+                            <div class="chat">
+                                <span class="myimg2"></span>
+                                <span>#kimsoo</span>
+                                <button type="button">Chat with me</button>
+                            </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- main -->
+        <main>
+            <section class="sec introduce" id="introduce">
+                <div class="inner">
+                    <h2 class="subtit gradient">introduce</h2>
+                    <div class="cont">
+                        <div class="img_box">
+                            <p>Hello ! <br>
+                                I'm Designer, <br>
+                                Kim soo
+                            </p>
+                            <img src="./images/myprofile3.png" alt="">
+                        </div>
+                        <dl>
+                            <div>
+                                <dt>Name</dt><dd>김수</dd>
+                            </div>
+                            <div>
+                                <dt>Birth</dt><dd>93.09.21</dd>
+                            </div>
+                            <div>
+                                <dt>Education</dt><dd>명지대학교 디지털미디어학과 졸업
+                                    <br>[고용노동부] UIUX 엔지니어링 콘텐츠 기초과정 수료
+                                    <br>[SeSSAC] UIUX 스페셜리스트 데뷔과정 수료
+                                </dd>
+                            </div>
+                            <div>
+                                <dt>certificate</dt><dd>컴퓨터활용능력 1급 2019 <br>웹디자인기능사 1급 2020<br>GTQ 포토샵 1급 2020</dd>
+                            </div>
+                        </dl>
+                    </div>
+                </div>
+            </section>
+            <section class="sec skills" id="skills">
+                <div class="inner">
+                    <h2 class="subtit gradient">Skills</h2>
+                    <div class="skillbar_box">
+                        <!-- skillbar1 -->
+                        <div class="skillbar1 skillbar" id="skillbar1">
+                            <div class="outer">
+                                <div class="in">
+                                    <div class="number" id="number1"></div>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                   <linearGradient id="GradientColor">
+                                      <stop offset="0%" stop-color="#8B9EEA" />
+                                      <stop offset="100%" stop-color="#A1F9B1" />
+                                   </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+    
+                            <h4>HTML & CSS</h4>
+                        </div>            
+
+                        <!-- skillbar2 -->
+                        <div class="skillbar2 skillbar">
+                            <div class="outer">
+                                <div class="in">
+                                    <div class="number" id="number2"></div>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                <linearGradient id="GradientColor">
+                                    <stop offset="0%" stop-color="#8B9EEA" />
+                                    <stop offset="100%" stop-color="#A1F9B1" />
+                                </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+
+                            <h4>Javascript</h4>
+                        </div>            
+
+                        <!-- skillbar3 -->
+                        <div class="skillbar3 skillbar">
+                            <div class="outer">
+                                <div class="in">
+                                    <div class="number" id="number3"></div>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                <linearGradient id="GradientColor">
+                                    <stop offset="0%" stop-color="#8B9EEA" />
+                                    <stop offset="100%" stop-color="#A1F9B1" />
+                                </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+
+                            <h4>Photoshop</h4>
+                        </div>            
+
+                        <!-- skillbar4 -->
+                        <div class="skillbar4 skillbar">
+                            <div class="outer">
+                                <div class="in">
+                                    <div class="number" id="number4"></div>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                <linearGradient id="GradientColor">
+                                    <stop offset="0%" stop-color="#8B9EEA" />
+                                    <stop offset="100%" stop-color="#A1F9B1" />
+                                </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+
+                            <h4>XD</h4>
+                        </div>            
+                    </div>
+                </div>
+            </section>
+            <section class="sec publishing" id="portfolio">
+                <div class="inner">
+                    <h3 class="subtit"><span class="point">publishing</span><br>project</h2>
+                    <section class="pub_work pub_work1">
+                        <article class="index">
+                            <p>01</p>
+                        </article>
+                        <article class="project">
+                            <a href="https://suyo9442.github.io/weltree_renewal/" target="_blank">
+                                <img src="./images/work/welltree_home.png" alt="welltree_home">
+                            </a>
+                            <h4>WebSite Renewal</h4>
+                            <div class="desc_box">
+                                <p>기업 웰트리 사이트를 리디자인과 코드작성으로 리뉴얼 하였습니다.</p>
+                                <a href="./html/pub_work1.html">info &rarr;</a>
+                            </div>
+                        </article>
+                    </section>
+                    <section class="pub_work pub_work2">
+                        <article class="index">
+                            <p class="outline">02</p>
+                        </article>
+                        <article class="project">
+                            <a href="http://fancy00.dothome.co.kr/" target="_blank">
+                                <img src="./images/work/portfolio.png" alt="portfolio">
+                            </a>
+                            <h4>Portfolio WebSite</h4>
+                            <div class="desc_box">
+                                <p>퍼블리싱과 디자인 작업을 담은 포트폴리오 웹사이트입니다.</p>
+                                <a href="./html/pub_work2.html" target="_blank">info &rarr;</a>
+                            </div>
+                        </article>
+                    </section>
+                    <section class="pub_work pub_work3">
+                        <article class="index">
+                            <p class="outline">03</p>
+                        </article>
+                        <article class="project">
+                            <a href="" target="_blank">
+                                <img src="./images/work/light-leak.jpg" alt="">
+                            </a>
+                            <h4>Project3</h4>
+                            <div class="desc_box">
+                                <p>준비중입니다.</p>
+                                <a href="./html/pub_work1.html" target="_blank">info &rarr;</a>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </section>
+            <section class="sec design" id="design">
+                <div class="inner">
+                    <div class="tit_box">
+                        <h3 class="subtit"><span class="point">Design</span> project</h2>
+                    </div>
+                    <ul class="work_box">
+                        <li class="des_work des_work1">
+                            <article class="project">
+                                <a href="" target="_blank">
+                                    <img src="./images/work/light-leak.jpg" alt="">
+                                </a>
+                                <h4>Project</h4>
+                                <p>준비중입니다.</p>
+                            </article>
+                            <article class="index">
+                                <a href="./html/pub_work1.html">info &rarr;</a>
+                            </article>
+                        </li>
+                        <li class="des_work des_work2">
+                            <article class="project">
+                                <a href="" target="_blank">
+                                    <img src="./images/work/light-leak.jpg" alt="">
+                                </a>
+                                <h4>Project</h4>
+                                <p>준비중입니다.</p>
+                            </article>
+                            <article class="index">
+                                <a href="./html/pub_work1.html">info &rarr;</a>
+                            </article>
+                        </li>
+                        <li class="des_work des_work2">
+                            <article class="project">
+                                <a href="" target="_blank">
+                                    <img src="./images/work/light-leak.jpg" alt="">
+                                </a>
+                                <h4>Project</h4>
+                                <p>준비중입니다.</p>
+                            </article>
+                            <article class="index">
+                                <a href="./html/pub_work1.html">info &rarr;</a>
+                            </article>
+                        </li>
+                        <li class="des_work des_work2">
+                            <article class="project">
+                                <a href="" target="_blank">
+                                    <img src="./images/work/light-leak.jpg" alt="">
+                                </a>
+                                <h4>Project</h4>
+                                <p>준비중입니다.</p>
+                            </article>
+                            <article class="index">
+                                <a href="./html/pub_work1.html">info&rarr;</a>
+                            </article>
+                        </li>
+                    </ul>
+
+
+
+
+
+                       
+
+                </div>
+            </section>
+            <section class="sec contact" id="contact">
+                <div class="inner">
+                    <div class="contact_left">
+                        <p>
+                            I'd love to <br>
+                            hear from you
+                        </p>
+
+                        <div class="circle_box">
+                            <span class="rotate"></span>
+                            <span class="dot rotate"></span>
+                            <span class="rotate"></span>
+                        </div>
+                    </div>
+                    <div class="contact_right">
+                        <h2 class="subtit gradient">Contact</h2>
+                        <div class="send_mail">
+                            <form id="myForm">
+                                <fieldset>
+                                    <legend class="blind">메시지 보내기</legend>
+                                    <div class="input_wrap">
+                                        <label for="name">NAME</label>
+                                        <input type="text" id="name" name="name" placeholder="성함을 입력해 주세요.">
+                                    </div>
+                                    <div class="input_wrap">
+                                        <label for="mail">EMAIL</label>
+                                        <input type="text" id="mail" name="email" placeholder="이메일 주소를 입력해 주세요.">
+                                    </div>
+                                    <div class="input_wrap">
+                                        <label for="phone">CALL</label>
+                                        <input type="text" id="phone" name="phone" placeholder="연락받으실 전화번호를 입력해 주세요.">
+                                    </div>
+    
+                                    <div class="ta_wrap">
+                                        <label for="message">MESSAGE</label>
+                                        <textarea name="message" id="message" name="message" cols="30" rows="10" placeholder="내용을 입력해 주세요."></textarea>
+                                    </div>
+    
+                                    <button type="submit">Submit &rarr; </button>
+
+                                    <dl>
+                                        <div>
+                                            <dt>EMAIL ME</dt><dd><a href="">suyo7798@gmail.com</a></dd>
+                                        </div>
+                                    </dl>
+
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <!-- pop up -->
+        <div class="dim pop1">
+            <div class="pop_container">
+                <button type="button" class="closePop">팝업 닫기</button>
+                
+                <img src="./images/portfolio01.jpg" alt="">
+                <img src="./images/portfolio01.jpg" alt="">
+                <img src="./images/portfolio01.jpg" alt="">
+                <img src="./images/portfolio01.jpg" alt="">
+                <img src="./images/portfolio01.jpg" alt="">
+                <img src="./images/portfolio01.jpg" alt="">
+            </div>
+        </div>
+        <div class="dim pop2">
+            <div class="pop_container">
+                <button type="button" class="closePop">팝업 닫기</button>
+                
+                <img src="./images/portfolio02.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer id="footer">
+            <div class="inner">
+                <address class="copy">
+                    © 2022 Fancy Copyright All Rights Reserved.
+                </address>
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/_soo__life_/" target="_blank"><img src="./images/instagram2.svg" alt="instagram"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.notion.so/2996388261e9448f93f71772465f122e" target="_blank"><img src="./images/notion2.png" alt="notion"></a>
+                    </li>
+                    <li>
+                        <a href="https://fancy-note.tistory.com/" target="_blank"><img src="./images/blog2.svg" alt="blog"></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- 스크롤 위로 이동 -->
+        <a href="" id="scrollTop"><span class="arrow" id="arrow">위로 이동</span></a>
+    </div>
+
+    <script src="./js/jquery.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./js/common.js"></script>
+</body>
+</html>
+

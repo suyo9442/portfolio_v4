@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Archivo';
+    src: url("../fonts/Archivo-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Archivo';
+    src: url("../fonts/Archivo-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+}
+
+body, textarea, button, input, select, th, td {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0); /* 보여지는 영역을 crop하는 속성 */
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
